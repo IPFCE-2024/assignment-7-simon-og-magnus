@@ -3,12 +3,12 @@
 #include <stdbool.h>
 
 typedef struct node {
-  int data;
-  struct node *next;
+    int data;
+    struct node *next;
 } node;
 
 typedef struct {
-  node *head;
+    node *head;
 } stack;
 
 void initialize(stack *s);
